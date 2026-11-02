@@ -24,13 +24,13 @@ def reset_world():
     global boy
 
     boy = Boy()
-    game_world.add_object(boy, 1)
+    game_world.add_object(boy, 1)           # boy는 1번 레이어
 
     grass = Grass()
-    game_world.add_object(grass, 0)
+    game_world.add_object(grass, 0)         # grass는 0번 레이어
 
     grass1 = Grass(400, 10)
-    game_world.add_object(grass1, 2)
+    game_world.add_object(grass1, 2)        # grass1은 2번 레이어
 
 
 # game logic
